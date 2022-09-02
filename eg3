@@ -1,0 +1,3 @@
+#remove duplicates
+string ='python is great and java is also great '
+print(' '.join(dict.fromkeys(string.split())))
